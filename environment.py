@@ -5,13 +5,7 @@ import sys
 
 class Environment:
     'Map-based environment'
-    '''
-    You will also need to implement the class Environment. 
-    The __init__ function has been given to you. 
-    Additional methods should handle environment-related operations 
-    like determining if a state is a goal state, 
-    and calculating the available moves from a state.
-    '''
+
 
     # Member data
     # elevations: raw data for each position, stored in a list of lists
