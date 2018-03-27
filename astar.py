@@ -11,18 +11,7 @@ import copy
 
 
 class Search(object):
-    '''
-    It must implement the following methods:
-    __init__
-    search, which returns a triplet of:
-        solution:anarrayofmovesinorder(e.g.,[‘N’, ‘E’, ‘E’]),orNone 
-        frontier: an array of states which are in the frontier at the end of the search. 
-        visited: an array of states that have been expanded during the search.
-    The member data in Search is up to you, but a reasonable set might be: 
-    frontier (array of States)
-    visited (array of States)
-    environment (pointer to the global environment)
-    '''
+
     
 
     def __init__(self, initial_state, env):
